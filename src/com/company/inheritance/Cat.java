@@ -11,6 +11,7 @@ public class Cat extends Animal{
     }
 
     private boolean pottyTrained;
+
     void purr(int noiseVolume){
         System.out.println("Purrrpurrr at volume " + noiseVolume + " Decibels");
     }
