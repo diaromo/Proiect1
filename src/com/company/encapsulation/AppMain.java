@@ -42,7 +42,7 @@ public class AppMain {
 
 
         Activity myActivity1 = new Activity();
-        myActivity1.setDuration(30);
+        myActivity1.setDuration("30");
         System.out.println(myActivity1.getDuration());
         myActivity1.setDurationMinutes(30);
         System.out.println(myActivity1.getDurationMinutes());

@@ -2,15 +2,15 @@ package com.company.encapsulation;
 
 public class Activity {
 
-    private int duration;
+    private String duration;
     private int durationMinutes;
     private String location;
 
-    public int getDuration() {
+    public String getDuration() {
         return duration;
     }
 
-    public void setDuration(int duration) {
+    public void setDuration(String duration) {
         this.duration = duration;
     }
 
