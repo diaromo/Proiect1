@@ -2,6 +2,7 @@ package com.company.inheritance;
 
 public class AppMain {
     public static void main(String[] args) {
+
         //Cat
         Cat cat1 = new Cat();
 
