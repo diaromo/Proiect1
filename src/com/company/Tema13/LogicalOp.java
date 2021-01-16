@@ -106,6 +106,25 @@ public class LogicalOp {
         }
         return b;
     }
+    //Arrays Optional Punct 1
+    //Creati o metoda care insereze un element
+    // pe o pozitie specifica intr-un array.
+
+    public int[] addArray(int[] a, int n, int p){
+        int[] b = new int[a.length+1];
+        for (int i=0, j=0; i<a.length;i++){
+            if (i!=p){
+                b[j++] = a[i];
+            }
+            else {
+                b[j++] = n;
+                i--;
+                p=-1;
+            }
+        }
+        return b;
+    }
+
     //Arrays Optional Punct 2
 
     public String returnBigAndSmall (int [] a){

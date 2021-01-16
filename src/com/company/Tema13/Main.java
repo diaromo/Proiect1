@@ -80,9 +80,16 @@ public class Main {
             System.out.print(copyArray2[z] + " ");
 
         }
+        System.out.print("\n");
+        //Java Arrays Optional Punct 1
+        int[] numbers1 = {1,2,3,4,5};
+        int[] numbersOut = logic.addArray(numbers1,7,2);
+        for(int z=0; z<numbersOut.length;z++){
+            System.out.print(numbersOut[z] + " ");
+        }
 
         //Java Arrays Optional Punct 2
-        int[] numbers = {2,6,-1,4};
-        System.out.println(logic.returnBigAndSmall(numbers));
+        int[] numbers2 = {2,6,-1,4};
+        System.out.println(logic.returnBigAndSmall(numbers2));
     }
 }
